@@ -1,0 +1,26 @@
+.imagen-logo {
+    width: 15rem;
+    margin: 1rem 0;
+}
+
+
+.card {
+    transition: transform 0.4s ease;
+}
+
+.card:hover {
+    transform: scale(1.15);
+}
+
+.fixed-size-card {
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+    height: 450px; /* Aumenta la altura según tus necesidades */
+    margin: 10px; /* Espaciado entre tarjetas */
+    margin-bottom: 20px; /* Margen adicional debajo de cada tarjeta */
+}
+
+.fixed-size-img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho de la tarjeta */
+    height: 200px; /* Ajusta la altura de la imagen */
+    object-fit: cover; /* Mantiene la proporción de la imagen */
+}
